@@ -1,0 +1,35 @@
+.header {
+  color: var(--color-white);
+  padding-top: 3.8rem;
+  padding-bottom: 1rem;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 1rem;
+  }
+
+  &__btns {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  &__btn-item {
+    margin-right: 6rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__btn {
+    color: var(--color-white);
+    font: var(--font-btn-s);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+}
