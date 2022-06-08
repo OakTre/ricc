@@ -1,0 +1,32 @@
+-
+  const benefs = [
+    "Agri-tech integration",
+    "Production planning",
+    "Sales goals",
+    "Making data-driven decisions",
+    "Improving forecasting",
+    "Increasing competitive advantages",
+    "Farm control",
+    "Waste <br> reduction",
+    "Managing <br> recalls"
+  ]
+
+section.section.benefits
+  .benefits__heading-container
+    .benefits__heading-block
+      h2.benefits__heading.site-second-heading
+        | Benefits of business intelligence
+        br
+        span
+          | in agriculture
+    .benefits__heading-block
+      p.benefits__heading-text
+        | Business analysis with BI help you to use data effectively to manage your farm with maximum benefit.
+  .benefits__body-container
+    .benefits__body-container-block
+    .benefits__body-container-block
+      ul.benefits__list
+        for item, index in benefs
+          li.benefits__item
+            img(src=`images/benefits/icon${index}.svg` alt=item class="benefits__item-img")
+            span.benefits__item-caption!= item

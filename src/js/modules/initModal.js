@@ -15,5 +15,5 @@ export default () => {
     },
   });
 
-  window.medikamarket_API.modal = modal;
+  // window.medikamarket_API.modal = modal;
 };
